@@ -13,7 +13,7 @@
         
         public override void Down()
         {
-            AddColumn("dbo.Musteris", "MusteriSoyad", c => c.String());
+            AddColumn("dbo.Musteris", "MusteriSoyad", c => c.String()); //fdwsf
             DropColumn("dbo.Musteris", "MusteriUnvan");
         }
     }
