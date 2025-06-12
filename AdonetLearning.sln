@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityCodeFirst", "EntityCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstProject", "CodeFirstProject\CodeFirstProject.csproj", "{FFD2017C-F572-4C85-A7BE-B95E10EA3744}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lınqTry", "lınqTry\lınqTry.csproj", "{066CBE35-D3C4-4DC8-A1F1-43134B02C9F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{FFD2017C-F572-4C85-A7BE-B95E10EA3744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD2017C-F572-4C85-A7BE-B95E10EA3744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD2017C-F572-4C85-A7BE-B95E10EA3744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066CBE35-D3C4-4DC8-A1F1-43134B02C9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066CBE35-D3C4-4DC8-A1F1-43134B02C9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066CBE35-D3C4-4DC8-A1F1-43134B02C9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066CBE35-D3C4-4DC8-A1F1-43134B02C9F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

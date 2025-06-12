@@ -55,7 +55,6 @@ namespace SQLTICARIOTOMASYON
             bgl.baglanti().Close();
 
         }
-
         private void btnKaydet_Click(object sender, EventArgs e)
         {
             SqlCommand sqlCommand = new SqlCommand("insert into TBL_MUSTERILER (AD,SOYAD,TELEFON,TELEFON2,TC,MAIL,IL,ILCE,ADRES,VERGIDAIRE) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10)", bgl.baglanti());
@@ -83,9 +82,7 @@ namespace SQLTICARIOTOMASYON
             bgl.baglanti().Close();
             MessageBox.Show("Müşteri Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             listele();
-
         }
-
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
             SqlCommand komut2 = new SqlCommand("update TBL_MUSTERILER set AD=@p1,SOYAD=@p2,TELEFON=@p3,TELEFON2=@p4,TC=@p5,MAIL=@p6,IL=@p7,ILCE=@p8,ADRES=@p9,VERGIDAIRE=@p11 where ID=@p10", bgl.baglanti());
@@ -104,7 +101,6 @@ namespace SQLTICARIOTOMASYON
             bgl.baglanti().Close();
             MessageBox.Show("Müşteri Bilgileri Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
-
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)

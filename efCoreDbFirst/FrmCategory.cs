@@ -59,5 +59,10 @@ namespace efCoreDbFirst
         {
 
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

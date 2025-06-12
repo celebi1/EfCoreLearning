@@ -88,7 +88,6 @@
         series2};
             this.chartControl2.Size = new System.Drawing.Size(238, 165);
             this.chartControl2.TabIndex = 2;
-            //this.chartControl2.Click += new System.EventHandler(this.chartControl2_Click);
             // 
             // Form1
             // 
@@ -100,6 +99,7 @@
             this.Controls.Add(this.groupControl1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
